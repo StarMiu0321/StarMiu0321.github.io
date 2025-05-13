@@ -2,24 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.starmiu.top/posts/8e075160.html</loc>
-    
-    <lastmod>2025-05-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.starmiu.top/posts/be11bdb8.html</loc>
-    
-    <lastmod>2025-05-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.starmiu.top/posts/bc6e8a9c.html</loc>
     
     <lastmod>2025-05-13</lastmod>
@@ -38,7 +20,7 @@
   </url>
   
   <url>
-    <loc>https://www.starmiu.top/posts/47525a0f.html</loc>
+    <loc>https://www.starmiu.top/posts/8e075160.html</loc>
     
     <lastmod>2025-05-13</lastmod>
     
@@ -47,7 +29,16 @@
   </url>
   
   <url>
-    <loc>https://www.starmiu.top/posts/1819b898.html</loc>
+    <loc>https://www.starmiu.top/posts/be11bdb8.html</loc>
+    
+    <lastmod>2025-05-13</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.starmiu.top/posts/2013454d.html</loc>
     
     <lastmod>2025-05-13</lastmod>
     
@@ -68,15 +59,6 @@
     <loc>https://www.starmiu.top/social/link/index.html</loc>
     
     <lastmod>2025-05-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.starmiu.top/posts/2013454d.html</loc>
-    
-    <lastmod>2025-05-12</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -110,6 +92,24 @@
   </url>
   
   <url>
+    <loc>https://www.starmiu.top/box/nav/index.html</loc>
+    
+    <lastmod>2023-03-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.starmiu.top/life/music/index.html</loc>
+    
+    <lastmod>2023-03-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.starmiu.top/box/animation/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
@@ -128,16 +128,7 @@
   </url>
   
   <url>
-    <loc>https://www.starmiu.top/box/nav/index.html</loc>
-    
-    <lastmod>2023-03-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.starmiu.top/personal/bb/index.html</loc>
+    <loc>https://www.starmiu.top/life/games/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -155,16 +146,7 @@
   </url>
   
   <url>
-    <loc>https://www.starmiu.top/life/music/index.html</loc>
-    
-    <lastmod>2023-03-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.starmiu.top/life/games/index.html</loc>
+    <loc>https://www.starmiu.top/personal/bb/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -182,7 +164,7 @@
   </url>
   
   <url>
-    <loc>https://www.starmiu.top/social/fcircle/index.html</loc>
+    <loc>https://www.starmiu.top/site/census/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -191,7 +173,7 @@
   </url>
   
   <url>
-    <loc>https://www.starmiu.top/site/census/index.html</loc>
+    <loc>https://www.starmiu.top/social/fcircle/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -218,14 +200,7 @@
 
   
   <url>
-    <loc>https://www.starmiu.top/tags/%E9%83%91%E8%A2%96%E4%B9%8B%E8%B0%8B/</loc>
-    <lastmod>2025-05-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.starmiu.top/tags/%E9%99%88%E8%BD%B8/</loc>
+    <loc>https://www.starmiu.top/tags/%E5%BC%A0%E4%BB%AA/</loc>
     <lastmod>2025-05-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -238,21 +213,7 @@
     <priority>0.2</priority>
   </url>
   
-  <url>
-    <loc>https://www.starmiu.top/tags/%E5%BC%A0%E4%BB%AA/</loc>
-    <lastmod>2025-05-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
 
-  
-  <url>
-    <loc>https://www.starmiu.top/categories/%E5%89%A7%E6%83%85/</loc>
-    <lastmod>2025-05-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
   
   <url>
     <loc>https://www.starmiu.top/categories/%E8%A7%92%E8%89%B2/</loc>
