@@ -7,20 +7,6 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 // 页面百分比
 function percent() {
-    let a = document.documentElement.scrollTop || window.pageYOffset, // 卷去高度
-        b = Math.max(document.body.scrollHeight, document.documentElement.scrollHeight, document.body.offsetHeight, document.documentElement.offsetHeight, document.body.clientHeight, document.documentElement.clientHeight) - document.documentElement.clientHeight, // 整个网页高度
-        result = Math.round(a / b * 100), // 计算百分比
-        up = document.querySelector("#go-up") // 获取按钮
-
-    if (result <= 95) {
-        up.childNodes[0].style.display = 'none'
-        up.childNodes[1].style.display = 'block'
-        up.childNodes[1].innerHTML = result;
-    } else {
-        up.childNodes[1].style.display = 'none'
-        up.childNodes[0].style.display = 'block'
-    }
-}
 
   // 先让菜单栏消失
   try {
@@ -1133,7 +1119,7 @@ function createtime1() {
   var dnum = Math.floor(days);
 
   var ascll = [
-    `欢迎来到北华大学创新小组网站!`,
+    `欢迎来到北华大学创新小组`,
     `Future is now 🍭🍭🍭`,
     `
         
@@ -1144,10 +1130,10 @@ function createtime1() {
 ██       ██████  ██      ██ ██   ██ ███████ ██   ██ ██   ██  ██████     ██   
                                               
 `,
-    "目前已经",
+    "小站已经苟活",
     dnum,
-    "天了!",
-    "©2025 By StarMiu",
+    "天啦!",
+    "©2022 By Fomalhaut",
   ];
 
   setTimeout(
@@ -1186,7 +1172,7 @@ function createtime2() {
   setTimeout(
     console.warn.bind(
       console,
-      "%c ⚡ Powered by StarMiu %c 你正在访问北华大学创新小组网页",
+      "%c ⚡ Powered by StarMiu %c 你正在访问北华大学创新小组网站",
       "color:white; background-color:#f0ad4e",
       ""
     )
@@ -1296,13 +1282,13 @@ function share_() {
   try {
     // 截取标题
     var title = document.title;
-    var subTitle = title.endsWith("| StarMiu") ? title.substring(0, title.length - 14) : title;
-    navigator.clipboard.writeText('StarMiu的站内分享\n标题：' + subTitle + '\n链接：' + url + '\n欢迎来访！🍭🍭🍭');
+    var subTitle = title.endsWith("| 匣启千年") ? title.substring(0, title.length - 14) : title;
+    navigator.clipboard.writeText('北华大学创新小组\n标题：' + subTitle + '\n链接：' + url + '\n欢迎来访！🍭🍭🍭');
     new Vue({
       data: function () {
         this.$notify({
           title: "成功复制分享信息🎉",
-          message: "您现在可以通过粘贴分享信息！",
+          message: "您现在可以通过粘贴直接跟小伙伴分享了！",
           position: 'top-left',
           offset: 50,
           showClose: true,
@@ -1335,7 +1321,7 @@ var titleTime;
 document.addEventListener('visibilitychange', function () {
   if (document.hidden) {
     //离开当前页面时标签显示内容
-    document.title = '网站正在懒加载';
+    document.title = '网站懒加载';
     clearTimeout(titleTime);
   } else {
     //返回当前页面时标签显示内容
@@ -2818,8 +2804,8 @@ function createtime() {
   let currentTimeHtml = "";
   (currentTimeHtml =
     hnum < 18 && hnum >= 9
-      ? `<img class='boardsign' src='https://lskypro.acozycotage.net/Fomalhaut/badge/F小屋-科研摸鱼中.svg' title='匣启千年,史鉴人间'><br> <div style="font-size:13px;font-weight:bold">本站居然运行了 ${dnum} 天 ${hnum} 小时 ${mnum} 分 ${snum} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 旅行者 1 号当前距离地球 ${dis} 千米，约为 ${unit} 个天文单位 🚀</div>`
-      : `<img class='boardsign' src='https://lskypro.acozycotage.net/Fomalhaut/badge/F小屋-下班休息啦.svg' title='云端历史多维互动剧本杀链鉴千年文明'><br> <div style="font-size:13px;font-weight:bold">本站居然运行了 ${dnum} 天 ${hnum} 小时 ${mnum} 分 ${snum} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 旅行者 1 号当前距离地球 ${dis} 千米，约为 ${unit} 个天文单位 🚀</div>`),
+      ? `<img class='boardsign' src='https://lskypro.acozycotage.net/Fomalhaut/badge/F小屋-科研摸鱼中.svg' title='什么时候能够实现财富自由呀~'><br> <div style="font-size:13px;font-weight:bold">本站居然运行了 ${dnum} 天 ${hnum} 小时 ${mnum} 分 ${snum} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 旅行者 1 号当前距离地球 ${dis} 千米，约为 ${unit} 个天文单位 🚀</div>`
+      : `<img class='boardsign' src='https://lskypro.acozycotage.net/Fomalhaut/badge/F小屋-下班休息啦.svg' title='下班了就该开开心心地玩耍~'><br> <div style="font-size:13px;font-weight:bold">本站居然运行了 ${dnum} 天 ${hnum} 小时 ${mnum} 分 ${snum} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i> <br> 旅行者 1 号当前距离地球 ${dis} 千米，约为 ${unit} 个天文单位 🚀</div>`),
     document.getElementById("workboard") &&
     (document.getElementById("workboard").innerHTML = currentTimeHtml);
 }
@@ -2861,17 +2847,17 @@ if (window.localStorage.getItem("fpson") == undefined || window.localStorage.get
     if (now > 1000 + lastTime) {
       var fps = Math.round((frame * 1000) / (now - lastTime));
       if (fps <= 5) {
-        var kd = `<span style="color:#bd0000">卡成ppt</span>`
+        var kd = `<span style="color:#bd0000">卡成ppt🤢</span>`
       } else if (fps <= 15) {
-        var kd = `<span style="color:red">电竞级帧率</span>`
+        var kd = `<span style="color:red">电竞级帧率😖</span>`
       } else if (fps <= 25) {
-        var kd = `<span style="color:orange">有点难受</span>`
+        var kd = `<span style="color:orange">有点难受😨</span>`
       } else if (fps < 35) {
-        var kd = `<span style="color:#9338e6">不太流畅</span>`
+        var kd = `<span style="color:#9338e6">不太流畅🙄</span>`
       } else if (fps <= 45) {
-        var kd = `<span style="color:#08b7e4">还不错哦</span>`
+        var kd = `<span style="color:#08b7e4">还不错哦😁</span>`
       } else {
-        var kd = `<span style="color:#39c5bb">十分流畅</span>`
+        var kd = `<span style="color:#39c5bb">十分流畅🤣</span>`
       }
       document.getElementById("fps").innerHTML = `FPS:${fps} ${kd}`;
       frame = 0;
@@ -3000,7 +2986,7 @@ function setUniverse() {
 
 // 雪花开关
 if (localStorage.getItem("snow") == undefined) {
-  localStorage.setItem("snow", "block");
+  localStorage.setItem("snow", "none");
 }
 document.getElementById("snow").style.display = localStorage.getItem("snow");
 function setSnow() {
@@ -3188,10 +3174,10 @@ if (localStorage.getItem("blogbg") != undefined) {
   setBg(localStorage.getItem("blogbg"));
 } else {
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url(https://pic1.imgdb.cn/item/6823074358cb8da5c8f01bb7.jpg);
-    --darkmode-bg:url(https://pic1.imgdb.cn/item/6823074358cb8da5c8f01bb7.jpg);
-    --mobileday-bg: url(https://pic1.imgdb.cn/item/6823074358cb8da5c8f01bb7.jpg);
-    --mobilenight-bg: url(https://pic1.imgdb.cn/item/6823074358cb8da5c8f01bb7.jpg);
+    --default-bg: url(https://lskypro.acozycotage.net/Fomalhaut/img/dm14.webp);
+    --darkmode-bg:url(https://lskypro.acozycotage.net/Fomalhaut/img/yuanshen1.webp);
+    --mobileday-bg: url(https://lskypro.acozycotage.net/Fomalhaut/img/snow.webp);
+    --mobilenight-bg: url(https://lskypro.acozycotage.net/Fomalhaut/img/mb8.webp);
   }`;
 }
 // 切换背景主函数
@@ -3240,7 +3226,7 @@ function getPicture_() {
     new Vue({
       data: function () {
         this.$notify({
-          title: "链接不对",
+          title: "链接不对🤣",
           message: "请输入有效的图片链接！",
           position: 'top-left',
           offset: 50,
