@@ -6,7 +6,7 @@
   <link href="https://www.starmiu.top/atom.xml" rel="self"/>
   
   <link href="https://www.starmiu.top/"/>
-  <updated>2025-06-12T01:16:04.664Z</updated>
+  <updated>2025-06-20T08:21:31.772Z</updated>
   <id>https://www.starmiu.top/</id>
   
   <author>
@@ -17,19 +17,24 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>简要说明</title>
+    <title>代码测试网页</title>
     <link href="https://www.starmiu.top/posts/45fcd2bb.html"/>
     <id>https://www.starmiu.top/posts/45fcd2bb.html</id>
     <published>2025-06-12T01:12:50.000Z</published>
-    <updated>2025-06-12T01:16:04.664Z</updated>
+    <updated>2025-06-20T08:21:31.772Z</updated>
     
-    <content type="html"><![CDATA[<p>111</p>]]></content>
+    <content type="html"><![CDATA[<p>111<br>鼠标指示<span title="解释xx">鼠标移到我这试试</span></p><!DOCTYPE html><html lang="zh-CN"><head>    <meta charset="UTF-8">    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>点击文字显示文本框</title>    <style>        * {            margin: 0;            padding: 0;            box-sizing: border-box;            font-family: 'Segoe UI', system-ui, sans-serif;        }<pre><code>    body &#123;        background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);        display: flex;        justify-content: center;        align-items: center;        min-height: 100vh;        padding: 20px;    &#125;        .container &#123;        width: 100%;        max-width: 600px;        background: white;        border-radius: 16px;        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);        padding: 40px;        text-align: center;    &#125;        h1 &#123;        color: #2c3e50;        margin-bottom: 30px;        font-size: 2.2rem;        font-weight: 600;    &#125;        .description &#123;        color: #7f8c8d;        margin-bottom: 40px;        line-height: 1.6;    &#125;        .clickable-text &#123;        background: #f8f9ff;        border: 2px dashed #3498db;        border-radius: 12px;        padding: 30px;        margin: 30px 0;        cursor: pointer;        transition: all 0.3s ease;        color: #3498db;        font-size: 1.2rem;        font-weight: 500;    &#125;        .clickable-text:hover &#123;        background: #e8f4ff;        transform: translateY(-3px);        box-shadow: 0 5px 15px rgba(52, 152, 219, 0.2);    &#125;        .text-box-container &#123;        display: none;        background: white;        border-radius: 12px;        padding: 25px;        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);        border: 1px solid #e0e7ff;        margin: 20px 0;        animation: fadeIn 0.4s ease-out;    &#125;        @keyframes fadeIn &#123;        from &#123; opacity: 0; transform: translateY(20px); &#125;        to &#123; opacity: 1; transform: translateY(0); &#125;    &#125;        .text-box &#123;        width: 100%;        min-height: 120px;        border: 1px solid #ddd;        border-radius: 8px;        padding: 15px;        font-size: 1rem;        resize: vertical;        margin-bottom: 20px;        transition: border 0.3s;    &#125;        .text-box:focus &#123;        outline: none;        border: 1px solid #3498db;        box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);    &#125;        .btn-container &#123;        display: flex;        justify-content: center;        gap: 15px;    &#125;        .btn &#123;        padding: 12px 30px;        border: none;        border-radius: 8px;        font-weight: 600;        cursor: pointer;        transition: all 0.3s;    &#125;        .save-btn &#123;        background: linear-gradient(to right, #3498db, #2980b9);        color: white;    &#125;        .save-btn:hover &#123;        background: linear-gradient(to right, #2980b9, #2573a7);        transform: translateY(-2px);        box-shadow: 0 4px 12px rgba(52, 152, 219, 0.4);    &#125;        .feature &#123;        display: flex;        align-items: center;        background: #f8fafc;        border-radius: 10px;        padding: 15px;        margin: 15px 0;        text-align: left;    &#125;        .feature-icon &#123;        background: #3498db;        color: white;        width: 40px;        height: 40px;        border-radius: 50%;        display: flex;        align-items: center;        justify-content: center;        margin-right: 15px;        flex-shrink: 0;    &#125;        footer &#123;        margin-top: 40px;        color: #7f8c8d;        font-size: 0.9rem;    &#125;&lt;/style&gt;</code></pre></head><body>    <div class="container">        <h1>点击文字显示文本框</h1>        <p class="description">点击下方文字区域，会出现一个文本框，您可以在其中输入内容并保存</p><pre><code>    &lt;div class=&quot;clickable-text&quot; id=&quot;clickableText&quot;&gt;        点击此处显示文本框并输入内容...    &lt;/div&gt;        &lt;div class=&quot;text-box-container&quot; id=&quot;textBoxContainer&quot;&gt;        &lt;textarea class=&quot;text-box&quot; id=&quot;textBox&quot; placeholder=&quot;在此输入您的内容...&quot;&gt;&lt;/textarea&gt;        &lt;div class=&quot;btn-container&quot;&gt;            &lt;button class=&quot;btn save-btn&quot; id=&quot;saveBtn&quot;&gt;保存内容&lt;/button&gt;        &lt;/div&gt;    &lt;/div&gt;        &lt;div class=&quot;feature&quot;&gt;        &lt;div class=&quot;feature-icon&quot;&gt;1&lt;/div&gt;        &lt;div&gt;            &lt;strong&gt;操作简单&lt;/strong&gt;            &lt;p&gt;只需点击文字区域，输入内容后保存&lt;/p&gt;        &lt;/div&gt;    &lt;/div&gt;        &lt;div class=&quot;feature&quot;&gt;        &lt;div class=&quot;feature-icon&quot;&gt;2&lt;/div&gt;        &lt;div&gt;            &lt;strong&gt;轻量设计&lt;/strong&gt;            &lt;p&gt;专注于核心功能，没有多余装饰&lt;/p&gt;        &lt;/div&gt;    &lt;/div&gt;        &lt;div class=&quot;feature&quot;&gt;        &lt;div class=&quot;feature-icon&quot;&gt;3&lt;/div&gt;        &lt;div&gt;            &lt;strong&gt;响应式布局&lt;/strong&gt;            &lt;p&gt;在各种设备上都能良好显示&lt;/p&gt;        &lt;/div&gt;    &lt;/div&gt;        &lt;footer&gt;        &lt;p&gt;点击文字显示文本框功能 | 简洁实现&lt;/p&gt;    &lt;/footer&gt;&lt;/div&gt;&lt;script&gt;    document.addEventListener('DOMContentLoaded', function() &#123;        const clickableText = document.getElementById('clickableText');        const textBoxContainer = document.getElementById('textBoxContainer');        const textBox = document.getElementById('textBox');        const saveBtn = document.getElementById('saveBtn');                // 点击文字显示文本框        clickableText.addEventListener('click', function() &#123;            textBoxContainer.style.display = 'block';            textBox.focus();        &#125;);                // 保存内容        saveBtn.addEventListener('click', function() &#123;            const newText = textBox.value.trim();                        if (newText) &#123;                clickableText.textContent = newText;            &#125; else &#123;                clickableText.textContent = '点击此处显示文本框并输入内容...';            &#125;                        textBoxContainer.style.display = 'none';                        // 添加保存成功效果            clickableText.style.background = '#e1f7e6';            clickableText.style.border = '2px dashed #2ecc71';            setTimeout(() =&gt; &#123;                clickableText.style.background = '#f8f9ff';                clickableText.style.border = '2px dashed #3498db';            &#125;, 1000);        &#125;);                // 按ESC键关闭文本框        document.addEventListener('keydown', function(e) &#123;            if (e.key === 'Escape' &amp;&amp; textBoxContainer.style.display === 'block') &#123;                textBoxContainer.style.display = 'none';            &#125;        &#125;);    &#125;);&lt;/script&gt;</code></pre></body></html>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;111&lt;/p&gt;
-</summary>
+    <summary type="html">&lt;p&gt;111&lt;br&gt;
+鼠标指示&lt;span title=&quot;解释xx&quot;&gt;鼠标移到我这试试&lt;/span&gt;&lt;/p&gt;
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;zh-CN&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;</summary>
       
     
     
@@ -405,7 +410,7 @@
     <link href="https://www.starmiu.top/posts/47525a0f.html"/>
     <id>https://www.starmiu.top/posts/47525a0f.html</id>
     <published>2025-05-13T11:26:18.000Z</published>
-    <updated>2025-05-15T09:22:21.537Z</updated>
+    <updated>2025-06-20T08:17:55.450Z</updated>
     
     <content type="html"><![CDATA[<p>初启<br>你是<span title="这是陈轸">陈轸</span>，蛇足惊雷，舌锁千军，你在秦国初露锋芒，张仪是你一生的宿敌。<br>大风起兮云飞扬，三皇治世，五帝定伦，夏立商兴，周封天下，战国已至，遂分七雄，曰齐，曰楚，曰秦，曰燕，曰赵。曰魏，曰韩。西方的黑龙正俯瞰天下，大争之世早已到来。<br>你身负纵横之术踏入秦国，走进了时代的漩涡。你献给秦国的第一份投名状便是不战而退楚之兵。楚国将领昭阳破魏攻齐，你便出使齐国，一席“画蛇添足”之论，令昭阳惊退。你知道这酒案上蜿蜒的蛇影将伴随你一生。<br>时来天地皆同力，运去英雄不自由。你借秦之势扬名天下，自然也会招来同僚攻击。你终于还是和张仪走到了对立面。朝堂之上，他两次污蔑你通楚：“楚王厚待陈轸，他是个十足的反贼！”你冷笑反击：“若我真的背叛秦国，楚国又岂敢信我？”秦王目光闪烁，终究在你与张仪间选了后者。离秦那日，函谷关的风雪割断了玉珏，也割断了你的秦臣之名。<br>你先来到了楚国，但不被重用，又来到魏国，在这儿，你又遇到了张仪，“这个张仪实在可恨。”已为魏国丞相的张仪，使你无法在魏国立足，但也就是这个可恨的张仪，让你回到了楚国。“张仪果然还是这老一套，那我便将计就计，回到楚国。”<br>军号呜鸣，沉重又热血沸腾，你又得势了，这次是楚国。<br>此刻你立于楚宫飞檐下，手中竹简写着秦楚边境烽火。五国合纵已成泡影，义渠偷袭的余威尚在，韩国的怨气化作丹阳山间的阴云。你知道，张仪的连横策正从咸阳席卷而来——而你的纵横术，注定要与这乱世再赌一局。</p><p>第一幕 端倪<br>又是一个雨夜，窗外雨声哗啦啦作响，你坐在正厅椅子上，却是在等人了。<br>脚步踩碎了雨声，这雨夜也显得不能那么平静了。<br>“大人，秦国派人来京了，说是不日张仪也要来。”侍卫朝你拱了拱手道。<br>“嗯，也该来了，再不来秦王也要急了吧。退下吧，退下吧。”你挥了挥手，转身往书房去了。<br>是的，张仪你的老对手，他又来了。这次他又会给楚国带来什么灾难呢？<br>你走进书房，只见一张七国地图挂在墙上，你拿起蜡烛，一寸一寸将地图慢慢照亮，“这是楚国，这是秦国，这是魏国，这是齐国”，你声音突然一停，心里却活跃起来，“五国合纵何其辉煌啊，如今魏国退盟，我楚国也只剩下一个齐国可以倚靠了。两国联盟，秦国无论如何也打不进来，他张仪又当如何呢？真有神仙本事不成，呵！”<br>“老爷，夜深了，你也该睡了。”小厮敲了敲门，打断了你的思绪。“罢了罢了，且看他如何出招吧，祸事，真是一桩祸事啊”你如是想。<br>忙碌的日子是显得这样快，你每日晨起上朝，坐班，到傍晚才能回来，在这些日子里，你无时无刻不想着张仪可能会做的计策，但总是不得其法，一晃已是一月有余。<br>傍晚，郢都，你刚刚结束了一天的工作，正坐着马车回家，却听车外传来了声音。“都让一让，都让一让，这是秦相张仪的马车，大家都让一让。”<br>却是正好让你遇上张仪了，“真是不是冤家不聚头。“你如实想。”大人，要让吗？“马夫扭头问你。”让，为什么要让，应该是他让本大人！“这时却见张仪的马车转头进入了驿馆。“算他好运，走吧，回府。”你对马夫说道。<br>次日清晨，正是早朝时间，今日张仪就要拜见楚王了，你很确定今天不会平凡。马车摇摇晃晃，你不禁有些困倦了，却听咚一声，却是不知道和那位朝臣的马车撞了。你一拉帘子，“呦，我道是谁呢，原来是靳尚，靳大人啊，大人的马夫驾车技术有待提升啊。”你说完，却是原地不管靳尚，示意马夫接着赶路了。<br>朝会开始了，“众卿家都说一说，这张仪来我楚国所为何事啊？”楚王人还没到，却是已经把问题抛给你和同僚了。你站在原地，只听很多朝臣意见大都相同，无非是张仪奸诈，不可轻信，大王万事三思之类的老一套，但在你看来，这却是老成谋国之言了。<br>“先晾一下他，不急。咱们先说其他的。”你听楚王说。<br>一个时辰过去，讨论事毕，你只见楚王挥了挥手，示意要召见张仪了。你打起来十二分的精神，不管他今天所图为何，你都不会让他得逞。<br>“秦国愿意献出商淤之地六百里，但楚国要与齐国断交！”真是平地起惊雷，你不禁一愣，这恍惚之后，便是警铃大作，“不对不对，此人向来不吃亏，如今又是献出商淤之地，又是楚齐断交，所图不知又有多大了！”想到这，你却是不能再多想了，因为时机转瞬即逝，你已然出列了，高呼道，“大王万万不可，这定是秦国奸计！”其他朝臣也纷纷出列，附和你的意见。<br>下朝后。“大王竟然没有拒绝，诶，有的忙了。”你边想边向马车方向走去。但突然眼前出现一只脚，将你绊倒了，周围朝臣传来阵阵笑声。你抬头一看，是靳尚和他的属官小卫，刚刚正是这姓卫的将你绊倒的。你勃然大怒，但见靳尚已经走远了，只有他的讥讽之声传入耳中，你指着他和他的属官，“我誓杀汝！”<br>傍晚，你正看书，突然看见窗外火光冲天，你马上吩咐侍卫去查看是怎么一回事。俄顷，侍卫回禀你说是靳尚的属官卫贤家走水了。<br>火燃烧着木头，发出沙沙声，也照亮了你的脸。你听着这火声，不知为何感到十分烦闷，忽然你抓住了什么！<br>有人要害你不成！<br>（未经主持人许可，禁止翻看下一页）</p><p>本阶段你要做的事情：<br>1.确定张仪献出商淤之地的目的和背后逻辑<br>2.猜测杀害卫属官的凶手（在后续任务中对你或有帮助）</p>]]></content>
     
@@ -418,8 +423,6 @@
     
     
     <category term="陈轸" scheme="https://www.starmiu.top/tags/%E9%99%88%E8%BD%B8/"/>
-    
-    <category term="秦楚纵横" scheme="https://www.starmiu.top/tags/%E7%A7%A6%E6%A5%9A%E7%BA%B5%E6%A8%AA/"/>
     
   </entry>
   
