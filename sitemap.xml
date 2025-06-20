@@ -290,7 +290,7 @@
   </url>
   
   <url>
-    <loc>https://www.starmiu.top/box/animation/index.html</loc>
+    <loc>https://www.starmiu.top/box/gallery/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -299,7 +299,7 @@
   </url>
   
   <url>
-    <loc>https://www.starmiu.top/box/nav/index.html</loc>
+    <loc>https://www.starmiu.top/box/animation/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -317,7 +317,16 @@
   </url>
   
   <url>
-    <loc>https://www.starmiu.top/box/gallery/index.html</loc>
+    <loc>https://www.starmiu.top/box/nav/index.html</loc>
+    
+    <lastmod>2023-03-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.starmiu.top/life/music/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -354,15 +363,6 @@
   
   <url>
     <loc>https://www.starmiu.top/social/fcircle/index.html</loc>
-    
-    <lastmod>2023-03-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.starmiu.top/life/music/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
