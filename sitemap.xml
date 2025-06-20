@@ -272,25 +272,7 @@
   </url>
   
   <url>
-    <loc>https://www.starmiu.top/categories/index.html</loc>
-    
-    <lastmod>2023-03-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.starmiu.top/tags/index.html</loc>
-    
-    <lastmod>2023-03-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.starmiu.top/box/gallery/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -317,7 +299,7 @@
   </url>
   
   <url>
-    <loc>https://www.starmiu.top/life/games/index.html</loc>
+    <loc>https://www.starmiu.top/categories/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -326,16 +308,7 @@
   </url>
   
   <url>
-    <loc>https://www.starmiu.top/life/music/index.html</loc>
-    
-    <lastmod>2023-03-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.starmiu.top/social/fcircle/index.html</loc>
+    <loc>https://www.starmiu.top/life/movies/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -362,7 +335,34 @@
   </url>
   
   <url>
-    <loc>https://www.starmiu.top/life/movies/index.html</loc>
+    <loc>https://www.starmiu.top/social/fcircle/index.html</loc>
+    
+    <lastmod>2023-03-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.starmiu.top/life/music/index.html</loc>
+    
+    <lastmod>2023-03-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.starmiu.top/box/gallery/index.html</loc>
+    
+    <lastmod>2023-03-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.starmiu.top/life/games/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -382,7 +382,7 @@
 
   <url>
     <loc>https://www.starmiu.top/</loc>
-    <lastmod>2025-06-12</lastmod>
+    <lastmod>2025-06-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -390,42 +390,42 @@
   
   <url>
     <loc>https://www.starmiu.top/tags/%E5%BC%A0%E4%BB%AA/</loc>
-    <lastmod>2025-06-12</lastmod>
+    <lastmod>2025-06-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.starmiu.top/tags/%E6%A5%9A%E6%80%80%E7%8E%8B/</loc>
-    <lastmod>2025-06-12</lastmod>
+    <lastmod>2025-06-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.starmiu.top/tags/%E9%83%91%E8%A2%96/</loc>
-    <lastmod>2025-06-12</lastmod>
+    <lastmod>2025-06-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.starmiu.top/tags/%E9%99%88%E8%BD%B8/</loc>
-    <lastmod>2025-06-12</lastmod>
+    <lastmod>2025-06-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.starmiu.top/tags/%E7%A7%A6%E6%A5%9A%E7%BA%B5%E6%A8%AA/</loc>
-    <lastmod>2025-06-12</lastmod>
+    <lastmod>2025-06-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://www.starmiu.top/tags/%E9%9D%B3%E5%B0%9A/</loc>
-    <lastmod>2025-06-12</lastmod>
+    <lastmod>2025-06-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -434,7 +434,7 @@
   
   <url>
     <loc>https://www.starmiu.top/categories/%E7%A7%A6%E6%A5%9A%E7%BA%B5%E6%A8%AA/</loc>
-    <lastmod>2025-06-12</lastmod>
+    <lastmod>2025-06-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
